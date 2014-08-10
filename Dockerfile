@@ -16,6 +16,6 @@ RUN apt-get update;\
     apt-add-repository ppa:chris-lea/node.js-devel ;\
     apt-get update
 
-
 RUN apt-get -y install \
-nodejs
+nodejs ;\
+    npm install forever -g
