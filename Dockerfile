@@ -12,7 +12,7 @@ RUN locale-gen en_US.UTF-8 ;\
     dpkg-reconfigure locales
 
 RUN apt-get update;\
-    apt-get -y install software-properties-common ;\
+    apt-get -y install software-properties-common supervisor ;\
     apt-add-repository ppa:chris-lea/node.js-devel ;\
     apt-get update
 
