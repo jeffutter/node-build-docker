@@ -17,5 +17,7 @@ RUN apt-get update;\
     apt-get update
 
 RUN apt-get -y install \
+build-essential \
+make \
 nodejs ;\
     npm install forever -g
